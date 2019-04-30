@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-scroll-view": "/utils/xing-components/x-scroll-view",
+    "YYRefresh":"/utils/yy-refresh-components/yyRefresh"
+  }
+}

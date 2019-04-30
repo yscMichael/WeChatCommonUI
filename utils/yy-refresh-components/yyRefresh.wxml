@@ -1,0 +1,37 @@
+<scroll-view id="body-scroll-view"
+              scroll-y="true"
+              upper-threshold="0rpx"
+              lower-threshold="0rpx"
+              scroll-with-animation="true"
+              bindscrolltolower="_onLoadmore"
+              bindscroll="_onScroll"
+              bindtouchend="_onTouchEnd">
+    <view class="head-view">
+        <!--下拉可以刷新-->
+        <block wx:if="{{pullDownStatus === 1}}">
+            <text class="iconfont icon-pull-down" space="nbsp"></text>
+            <text> {{pullText}}</text>
+        </block>
+        <!--松开立即刷新-->
+        <block wx:if="{{pullDownStatus === 2}}">
+            <text class="iconfont icon-release-up" space="nbsp"></text>
+            <text> {{releaseText}}</text>
+        </block>
+        <!--正在刷新数据中-->
+        <block wx:if="{{pullDownStatus === 3}}">
+            <text class="iconfont icon-loading loading" space="nbsp"></text>
+            <text> {{loadingText}}...</text>
+        </block>
+        <!--刷新完成-->
+        <block wx:if="{{pullDownStatus === 4}}">
+            <text class="iconfont icon-complete" space="nbsp"></text>
+            <text> {{finishText}}</text>
+        </block>
+    </view>
+    <slot></slot>
+    <view class='bottom-view'
+          hidden='{{isHiddenBottom}}'>
+        <text class="iconfont icon-loading loading" space="nbsp"></text>
+        <text> {{loadmoreText}}</text>   
+    </view>
+</scroll-view>
