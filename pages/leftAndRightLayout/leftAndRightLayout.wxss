@@ -61,6 +61,7 @@
   font-size: 10px;
   color: black;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /* 右 */
