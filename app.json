@@ -1,10 +1,9 @@
 {
   "pages": [
-    "pages/leftAndRightLayout/leftAndRightLayout",
     "pages/index/index",
     "pages/logs/logs",
     "pages/refresh/refresh",
-    
+    "pages/leftAndRightLayout/leftAndRightLayout",
     "pages/commonLayout/commonLayout"
   ],
   "window": {
