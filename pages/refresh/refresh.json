@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "x-scroll-view": "/utils/xing-components/x-scroll-view",
+    "YYRefresh": "/utils/yy-refresh-components/yyRefresh"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#1F91F2",
+  "navigationBarTitleText": "刷新界面",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,85 @@
+
+<!-- 1、旋转动画研究 -->
+<view class="main-view">
+  <view class='content-view'>
+    <span class="iconfont icon-loading loading"></span>
+    <text class="iconfont icon-loading loading"></text>
+    <view class="iconfont icon-loading loading"></view>
+  </view>
+</view>
+
+<view class='bottom-view'
+      hidden='{{isHideBottomView}}'> 
+  <!-- 图片 -->
+  <image class='bottom-image loading'
+          src='/images/Loading.png'
+          animation="{{animation}}">
+  </image>
+  <!-- 文字 -->
+  <view class='bottom-title'>
+  正在努力加载中...</view>
+</view>
+
+
+
+
+<!-- 2、scroll-view滑动研究 -->
+<!-- <scroll-view class='main-scroll-view'
+             scroll-y="true"
+             upper-threshold="0rpx"
+             lower-threshold="0rpx"
+             scroll-with-animation="true"
+             bindscrolltoupper="_upper"
+             bindscrolltolower="_lower"
+             bindscroll="_scroll">
+  <block wx:for="{{dataSource}}"
+         wx:key="index">
+    <view class='content-test-view'>我是view{{index}}</view>
+  </block>
+  <view class='bottom-view'>
+  </view>
+</scroll-view> -->
+
+
+<!-- <view class='bottom-view'>
+</view> -->
+
+<!-- <x-scroll-view refreshing="{{refreshing}}" 
+                nomore="{{nomore}}"
+                 bindpulldownrefresh="_onPullDownRefresh"
+                  bindloadmore="_onLoadmore" 
+                  bindscroll="_onScroll">
+    <block wx:for="{{dataSource}}"
+           wx:key="index">
+        <view class='content-test-view'>我是view{{index}}</view>
+    </block>
+</x-scroll-view> -->
+
+<!-- 3、scroll-view备份 -->
+<!-- <scroll-view class='main-scroll-view'
+             scroll-y="true"
+             upper-threshold="0rpx"
+             lower-threshold="0rpx"
+             scroll-top="{{scrollTop}}"
+             scroll-with-animation="true"
+             bindscrolltoupper="_upper"
+             bindscrolltolower="_lower"
+             bindscroll="_scroll"
+             bindtouchend="_onTouchEnd">
+
+  <block wx:for="{{dataSource}}"
+         wx:key="index">
+    <view class='content-test-view'>我是view{{index}}</view>
+  </block>
+
+</scroll-view> -->
+
+
+<!-- <YYRefresh>
+  <block wx:for="{{dataSource}}"
+         wx:key="index">
+    <view class='content-test-view'>我是view{{index}}</view>
+  </block>
+</YYRefresh> -->
+
+

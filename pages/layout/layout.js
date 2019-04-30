@@ -1,4 +1,4 @@
-
+// pages/layout/layout.js
 Page({
 
   /**
@@ -62,17 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  /**
-   * 点击view
-   */
-  clickRefresh:function(e){
-
-    console.log('+++++++++++++');
-    console.log(e.currentTarget.dataset.jump);
-    var targetURL = e.currentTarget.dataset.jump;
-    wx.navigateTo({
-      url: '/pages/' + targetURL + '/' + targetURL, 
-    })
   }
 })
