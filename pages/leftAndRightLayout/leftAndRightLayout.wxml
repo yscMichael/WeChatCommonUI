@@ -1,0 +1,21 @@
+<!-- table左右布局 -->
+<view class='title'>
+  <span>table左右布局</span>
+</view>
+
+<view class='float-main'>
+  <!-- 左 -->
+  <view class='float-main-left'>
+     <image src='/images/validity.png'></image>
+  </view>
+  <!-- 中 -->
+  <view class='float-main-content'>
+    <view class='content-title'>我是标题</view>
+    <view class='content-subTitle'>我是副标题</view>
+    <view class='content-bottom'>我是底部内容</view>
+  </view>
+  <!-- 右 -->
+  <view class='float-main-right'>
+    <image src='/images/moreButton.png'></image>
+  </view>
+</view>

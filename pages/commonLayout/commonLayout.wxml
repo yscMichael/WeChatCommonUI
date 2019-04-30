@@ -1,0 +1,14 @@
+<!-- table布局 -->
+<view class='title'>
+  <span>table布局</span>
+</view>
+<view class='table-main'>
+  <!-- 左 -->
+  <view class='table-main-left'>
+    <span>我是左边...</span>
+  </view>
+  <!-- 右 -->
+  <view class='table-main-right'>
+    <span>我是右边...</span>
+  </view>
+</view>

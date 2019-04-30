@@ -1,0 +1,84 @@
+.title{
+  background-color: #F1F0F5;
+  padding: 5px;
+}
+
+.title span{
+  color: #9F9E9F;
+  font-size: 12px;
+  margin-left:18px;
+  text-align: left;
+}
+
+/* 左右浮动 */
+.float-main{
+  /* 要设置宽度，否则会根据子元素适应 */
+  width: 100%;  
+  display:table;
+  
+  border: 1px red solid;
+  box-sizing: border-box;
+}
+
+/* 左 */
+.float-main-left{
+  /* 相当于设置最大宽度、为后面可伸缩内容腾出控件 */
+  /* 如果宽度小于子元素(width + margin)、以子元素为主*/
+  width: 40px;
+  display : table-cell;
+  
+  background-color: green;
+}
+
+.float-main-left image{
+  width: 45px;
+  height: 45px;
+  display: block;
+  /* 即使其它元素没有撑开父元素，这里也保证了基本布局 */
+  margin: 10px 5px 10px 10px;
+}
+
+/* 中 */
+.float-main-content{
+  background-color: gold;
+  display: table-cell;
+  /* 设置子元素排列方向、默认是baseline*/
+  vertical-align: top;
+}
+
+.content-title{
+  border: 1px green red;
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.content-subTitle{
+  font-size: 10px;
+  color: gray;
+}
+
+.content-bottom{
+  font-size: 10px;
+  color: black;
+  margin-top: 5px;
+}
+
+/* 右 */
+.float-main-right{
+  /* 相当于设置最大宽度、为后面可伸缩内容腾出控件 */
+  /* 如果宽度小于子元素(width + margin)、以子元素为主*/
+  width: 20px;
+  display : table-cell;   
+  vertical-align: middle;
+
+  background-color: gray;
+}
+
+.float-main-right image{
+  width: 8px;
+  height: 13px;
+  /* 图片靠右显示 */
+  float: right;
+  margin-right: 10px;
+}
+

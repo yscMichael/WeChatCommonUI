@@ -2,7 +2,13 @@
 <view class='title-cell'
       bindtap='clickRefresh'
       data-jump='refresh'>刷新动画</view>
+
+<!-- 常见布局方式 -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='commonLayout'>常见布局方式</view>
+
 <!-- 左右布局UI -->
 <view class='title-cell'
       bindtap='clickRefresh'
-      data-jump='layout'>左右布局</view>
+      data-jump='leftAndRightLayout'>左右布局</view>
