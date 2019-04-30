@@ -10,8 +10,8 @@
   text-align: left;
 }
 
-/* 左右浮动 */
-.float-main{
+/* 1、table布局 */
+.table-main{
   /* 要设置宽度，否则会根据子元素适应 */
   width: 100%;  
   display:table;
@@ -21,7 +21,7 @@
 }
 
 /* 左 */
-.float-main-left{
+.table-main-left{
   /* 相当于设置最大宽度、为后面可伸缩内容腾出控件 */
   /* 如果宽度小于子元素(width + margin)、以子元素为主*/
   width: 40px;
@@ -30,7 +30,7 @@
   background-color: green;
 }
 
-.float-main-left image{
+.table-main-left image{
   width: 45px;
   height: 45px;
   display: block;
@@ -39,25 +39,25 @@
 }
 
 /* 中 */
-.float-main-content{
+.table-main-content{
   background-color: gold;
   display: table-cell;
   /* 设置子元素排列方向、默认是baseline*/
   vertical-align: top;
 }
 
-.content-title{
+.table-content-title{
   border: 1px green red;
   margin-top: 7px;
   font-size: 12px;
 }
 
-.content-subTitle{
+.table-content-subTitle{
   font-size: 10px;
   color: gray;
 }
 
-.content-bottom{
+.table-content-bottom{
   font-size: 10px;
   color: black;
   margin-top: 5px;
@@ -65,7 +65,7 @@
 }
 
 /* 右 */
-.float-main-right{
+.table-main-right{
   /* 相当于设置最大宽度、为后面可伸缩内容腾出控件 */
   /* 如果宽度小于子元素(width + margin)、以子元素为主*/
   width: 20px;
@@ -75,7 +75,7 @@
   background-color: gray;
 }
 
-.float-main-right image{
+.table-main-right image{
   width: 8px;
   height: 13px;
   /* 图片靠右显示 */
@@ -83,3 +83,59 @@
   margin-right: 10px;
 }
 
+/* 2、flex布局 */
+.flex-main{
+  display: flex;
+
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.flex-main-left{
+  background-color: green;
+  flex: 0 0 45px;
+  order: -1;
+}
+
+.flex-main-left image{
+  width: 45px;
+  height: 45px;
+  display: block;
+
+  margin: 10px 5px 10px 10px;
+}
+
+.flex-main-content{
+  background-color: gold;
+  flex-grow: 1;
+}
+
+.flex-content-title{
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.flex-content-subTitle{
+  font-size: 10px;
+  color: gray;
+}
+
+.flex-content-bottom{
+  font-size: 10px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.flex-main-right{
+  flex: 0 0 20px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.flex-main-right image{
+  width: 8px;
+  height: 13px;
+  display: block;
+}

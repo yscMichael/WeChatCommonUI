@@ -1,30 +1,71 @@
-<!-- table左右布局 -->
+<!-- 1.1、table左右布局 -->
 <view class='title'>
   <span>table左右布局</span>
 </view>
 
-<view class='float-main'>
+<view class='table-main'>
   <!-- 左 -->
-  <view class='float-main-left'>
+  <view class='table-main-left'>
      <image src='/images/validity.png'></image>
   </view>
   <!-- 中 -->
-  <view class='float-main-content'>
-    <view class='content-title'>我是标题</view>
-    <view class='content-subTitle'>我是副标题</view>
-    <view class='content-bottom'>我是底部内容</view>
+  <view class='table-main-content'>
+    <view class='table-content-title'>我是标题</view>
+    <view class='table-content-subTitle'>我是副标题</view>
+    <view class='table-content-bottom'>我是底部内容</view>
   </view>
   <!-- 右 -->
-  <view class='float-main-right'>
+  <view class='table-main-right'>
     <image src='/images/moreButton.png'></image>
   </view>
 </view>
 
-<!-- float布局 -->
+<!-- 1.2、table左右布局(内容多)  -->
+<view class='title'>
+  <span>table左右布局(内容多)</span>
+</view>
+
+<view class='table-main'>
+  <!-- 左 -->
+  <view class='table-main-left'>
+     <image src='/images/validity.png'></image>
+  </view>
+  <!-- 中 -->
+  <view class='table-main-content'>
+    <view class='table-content-title'>我是标题</view>
+    <view class='table-content-subTitle'>我是副标题</view>
+    <view class='table-content-bottom'>我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底</view>
+  </view>
+  <!-- 右 -->
+  <view class='table-main-right'>
+    <image src='/images/moreButton.png'></image>
+  </view>
+</view>
+
+<!-- 2、flex布局 -->
+<view class='title'>
+  <span>flex布局</span>
+</view>
+
+<view class='flex-main'>
+  <!-- 左 -->
+  <view class='flex-main-left'>
+     <image src='/images/validity.png'></image>
+  </view>
+  <!-- 中 -->
+  <view class='flex-main-content'>
+    <view class='flex-content-title'>我是标题</view>
+    <view class='flex-content-subTitle'>我是副标题</view>
+    <view class='flex-content-bottom'>我是底部内容</view>
+  </view>
+  <!-- 右 -->
+  <view class='flex-main-right'>
+    <image src='/images/moreButton.png'></image>
+  </view>
+</view>
 
 
-
-<!-- flex布局 -->
+<!-- 3、float布局 -->
 
 
 

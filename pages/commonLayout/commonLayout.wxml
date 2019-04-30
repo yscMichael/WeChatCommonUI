@@ -5,10 +5,10 @@
 <view class='table-main'>
   <!-- 左 -->
   <view class='table-main-left'>
-    <span>我是左边...</span>
+    <span>我是左边left</span>
   </view>
   <!-- 右 -->
   <view class='table-main-right'>
-    <span>我是右边...</span>
+    <span>我是右边right</span>
   </view>
 </view>
