@@ -10,19 +10,13 @@ Page({
    */
   showModal: function () {
     //1、显示蒙层
-    var that = this;
-    that.setData({
+    this.setData({
       hideModal: false
     });
     //2、创建动画
-    var animation = wx.createAnimation({
-      //动画的持续时间 默认400ms
-      duration: 600,
-      //动画的效果 默认值是linear
-      timingFunction: 'ease',
-    })
-    //3、调用动画
-    this.animation = animation;
+    this.animation = this.createAnimation();
+    //3、调用动画(这里必须添加延时)
+    var that = this;
     setTimeout(function () {
       that.fadeIn();//调用显示动画
     }, 200);
@@ -32,21 +26,17 @@ Page({
    * 隐藏底部弹出框
    */
   hideModal: function () {
+    //1、创建动画
+    this.animation = this.createAnimation();
+    //2、调用隐藏动画(无需添加延时) 
+    this.fadeDown(); 
+    //3、隐藏蒙层(蒙层要添加延时)
     var that = this;
-    var animation = wx.createAnimation({
-      //动画的持续时间默认400ms   
-      duration: 800,
-      //动画的效果 默认值是linear
-      timingFunction: 'ease',
-    })
-    this.animation = animation
-    //调用隐藏动画  
-    that.fadeDown(); 
     setTimeout(function () {
       that.setData({
         hideModal: true
       })
-    }, 720);//先执行下滑动画，再隐藏模块
+    }, 900);//先执行下滑动画，再隐藏模块
   },
 
   /**
@@ -70,4 +60,17 @@ Page({
       animationData: this.animation.export(),
     })
   },
+
+  /**
+   * 创建animation
+   */
+  createAnimation:function(e){
+    var animation = wx.createAnimation({
+      //动画的持续时间默认400ms   
+      duration: 1000,
+      //动画的效果 默认值是linear
+      timingFunction: 'ease',
+    });
+    return animation;
+  }
 })
