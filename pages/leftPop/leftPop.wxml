@@ -2,7 +2,7 @@
       hidden="{{hideModal}}"
       bindtap="hideModal">
     <view class="container-view" >
-      <view class="pop-view bottom-pop-animation"
+      <view class="pop-view left-pop-animation"
             animation="{{animationData}}">
       </view>
     </view>    
