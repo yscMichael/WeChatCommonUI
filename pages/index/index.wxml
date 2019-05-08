@@ -12,3 +12,18 @@
 <view class='title-cell'
       bindtap='clickRefresh'
       data-jump='leftAndRightLayout'>左右布局</view>
+
+<!-- 左右布局UI -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='collectionLayout'>collectionView布局</view>
+
+<!-- 跟随列表 -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='followList'>跟随列表</view>
+
+<!-- 左侧弹出框 -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='leftPop'>左侧弹出框</view>

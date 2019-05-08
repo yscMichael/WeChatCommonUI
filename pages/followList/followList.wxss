@@ -1,0 +1,28 @@
+Page{
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+}
+
+.main-view{
+  background-color: lightgray;
+}
+
+.item-container{
+  background-color: yellowgreen;
+  position: relative;
+}
+
+.item-cell{
+  background-color: lightgray;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.pop-list{
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+}

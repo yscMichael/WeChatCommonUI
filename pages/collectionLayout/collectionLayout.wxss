@@ -1,0 +1,24 @@
+Page{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex; 
+}
+
+.main-view{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow:wrap;
+  align-content:flex-start;
+}
+
+.child{
+  background-color: lightgrey;
+  border: 1px solid red;
+  margin: 5px;
+  height: 30px;
+  line-height: 30px;
+}
+  

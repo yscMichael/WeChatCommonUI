@@ -1,0 +1,6 @@
+<view class='main-view'>
+  <block wx:for="{{itemDataSource}}"
+         wx:key="index">
+    <view class='child'>{{item}}</view>
+  </block>
+</view>

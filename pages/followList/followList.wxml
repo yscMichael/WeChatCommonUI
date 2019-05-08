@@ -1,0 +1,8 @@
+<view class='main-view'>
+  <view class='item-container'>
+      <view class='item-cell'
+        bindtap='clickFirstItem'>item1</view>
+      <view class='pop-list'></view>  
+  </view>
+  <view class='item-cell'>item2</view>
+</view>

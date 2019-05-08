@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/leftAndRightLayout/leftAndRightLayout",
     "pages/index/index",
     "pages/logs/logs",
     "pages/refresh/refresh",
-    
-    "pages/commonLayout/commonLayout"
+    "pages/commonLayout/commonLayout",
+    "pages/leftAndRightLayout/leftAndRightLayout",
+    "pages/collectionLayout/collectionLayout",
+    "pages/followList/followList",
+    "pages/leftPop/leftPop"
   ],
   "window": {
     "backgroundTextStyle": "light",

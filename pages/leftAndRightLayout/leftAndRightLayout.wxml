@@ -64,8 +64,49 @@
   </view>
 </view>
 
+<!-- 2、flex布局(内容过多) -->
+<view class='title'>
+  <span>flex布局</span>
+</view>
+
+<view class='flex-main'>
+  <!-- 左 -->
+  <view class='flex-main-left'>
+     <image src='/images/validity.png'></image>
+  </view>
+  <!-- 中 -->
+  <view class='flex-main-content'>
+    <view class='flex-content-title'>我是标题</view>
+    <view class='flex-content-subTitle'>我是副标题</view>
+    <view class='flex-content-bottom'>我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是</view>
+  </view>
+  <!-- 右 -->
+  <view class='flex-main-right'>
+    <image src='/images/moreButton.png'></image>
+  </view>
+</view>
 
 <!-- 3、float布局 -->
+<view class='title'>
+  <span>float布局</span>
+</view>
+
+<view class='float-main'>
+  <!-- 左 -->
+  <view class='float-main-left'>
+     <image src='/images/validity.png'></image>
+  </view>
+  <!-- 中 -->
+  <view class='float-main-content'>
+    <view class='float-content-title'>我是标题</view>
+    <view class='float-content-subTitle'>我是副标题</view>
+    <view class='float-content-bottom'>我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是底部内容我是</view>
+  </view>
+  <!-- 右 -->
+  <view class='float-main-right'>
+    <image src='/images/moreButton.png'></image>
+  </view>
+</view>
 
 
 

@@ -1,0 +1,11 @@
+<view class="modals" 
+      hidden="{{hideModal}}"
+      bindtap="hideModal">
+    <view class="container-view" >
+      <view class="pop-view bottom-pop-animation"
+            animation="{{animationData}}">
+      </view>
+    </view>    
+</view>
+
+<button bindtap="showModal">点我</button>

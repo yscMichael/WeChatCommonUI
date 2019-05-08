@@ -139,3 +139,33 @@
   height: 13px;
   display: block;
 }
+
+/* 3、float布局 */
+.float-main{
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.float-main-left{
+
+}
+
+.float-main-content{
+
+}
+
+.float-content-title{
+
+}
+
+.float-content-subTitle{
+
+}
+
+.float-content-bottom{
+
+}
+
+.float-main-right{
+
+}
