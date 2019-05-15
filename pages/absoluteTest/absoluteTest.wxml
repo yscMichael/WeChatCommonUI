@@ -1,0 +1,8 @@
+<view class='main-view'>
+  <!-- 第一个view -->
+  <view class='first-view'>
+  </view>
+  <!-- 第二个view -->
+  <view class='second-view'>
+  </view>
+</view>

@@ -147,11 +147,19 @@
 }
 
 .float-main-left{
+  float: left;
+}
 
+.float-main-left image{
+  width: 45px;
+  height: 45px;
+  display: block;
+
+  margin: 10px 5px 10px 10px;
 }
 
 .float-main-content{
-
+  float: left;
 }
 
 .float-content-title{
@@ -167,5 +175,11 @@
 }
 
 .float-main-right{
+  float: right;
+}
 
+.float-main-right image{
+  width: 8px;
+  height: 13px;
+  display: block;
 }

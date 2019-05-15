@@ -7,7 +7,8 @@
     "pages/leftAndRightLayout/leftAndRightLayout",
     "pages/collectionLayout/collectionLayout",
     "pages/followList/followList",
-    "pages/leftPop/leftPop"
+    "pages/leftPop/leftPop",
+    "pages/absoluteTest/absoluteTest"
   ],
   "window": {
     "backgroundTextStyle": "light",

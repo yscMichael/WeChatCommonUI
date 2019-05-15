@@ -27,3 +27,13 @@
 <view class='title-cell'
       bindtap='clickRefresh'
       data-jump='leftPop'>左侧弹出框</view>
+
+<!-- 实验整个模版覆盖 -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='leftPop'>实验整个模版覆盖</view>
+
+<!-- absolute实验 -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='absoluteTest'>absolute实验</view>
