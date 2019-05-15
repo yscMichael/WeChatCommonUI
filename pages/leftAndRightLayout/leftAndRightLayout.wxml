@@ -86,7 +86,7 @@
   </view>
 </view>
 
-<!-- flex横向布局压缩 -->
+<!-- 3、flex横向布局压缩 -->
 <view class='flex-main'>
   <!-- 左 -->
   <view class='flex-main-left'>
