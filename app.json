@@ -8,7 +8,8 @@
     "pages/collectionLayout/collectionLayout",
     "pages/followList/followList",
     "pages/leftPop/leftPop",
-    "pages/absoluteTest/absoluteTest"
+    "pages/absoluteTest/absoluteTest",
+    "pages/refreshScrollView/refreshScrollView"
   ],
   "window": {
     "backgroundTextStyle": "light",

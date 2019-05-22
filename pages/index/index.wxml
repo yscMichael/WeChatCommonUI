@@ -37,3 +37,9 @@
 <view class='title-cell'
       bindtap='clickRefresh'
       data-jump='absoluteTest'>absolute实验</view>
+
+<!-- scrollView刷新 -->
+<view class='title-cell'
+      bindtap='clickRefresh'
+      data-jump='refreshScrollView'>scrollView刷新</view>
+

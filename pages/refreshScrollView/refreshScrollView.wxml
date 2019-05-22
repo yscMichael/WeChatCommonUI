@@ -1,0 +1,16 @@
+<scroll-view class='main-scrollview'
+             scroll-y="true"
+             bindscroll="scroll" 
+             bindscrolltolower="lower" 
+             bindscrolltoupper="upper" 
+             bindtouchstart="start" 
+             bindtouchend="end" >
+  <block wx:for="{{dataSource}}"
+         wx:key="index">
+    <view class='title-cell'
+        data-jump='refresh'>刷新动画</view>
+  </block>
+</scroll-view>
+
+
+

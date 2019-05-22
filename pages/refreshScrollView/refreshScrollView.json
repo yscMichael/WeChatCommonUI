@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#1F91F2",
+  "navigationBarTitleText": "scrollView刷新",
+  "navigationBarTextStyle": "white",
+  "disableScroll": true
+}
